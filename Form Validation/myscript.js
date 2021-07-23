@@ -4,7 +4,7 @@ function validate()
     
 
     //2. calculate length of contact number and store i a variable named  "digitCount"
-    git
+   
     
     //3. if name input is blank, display the 'errorName' span, else hide it
    
