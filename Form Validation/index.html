@@ -30,8 +30,9 @@
         color: white;
         display: block;
       }
-      #errorContact,
-      #errorName {
+      #err1,
+      #err2 {
+        /*add display:none property here:*/
         color: red;
         margin: 8px;
         padding: 5px;
@@ -43,15 +44,15 @@
     <h1>CONTACT FORM</h1>
     <form>
       <label>Name:</label>
-      <input type="text" id="userName" placeholder="Your name.." />
-      <span id="errorName">Name Cannot be left blank.</span>
+      <input type="text" id="uname" placeholder="Your name.." />
+      <p id="err1">Name Cannot be left blank.</p>
       <label>Contact Number:</label>
       <input
         type="text"
-        id="contactInput"
+        id="contact"
         placeholder="Enter Mobile Number.."
       />
-      <span id="errorContact">Please Enter a 10 Digit Mobile Number</span>
+      <p id="err2">Please Enter a 10 Digit Mobile Number</p>
       <button type="button" onclick="validate()">Submit</button>
     </form>
   </body>
